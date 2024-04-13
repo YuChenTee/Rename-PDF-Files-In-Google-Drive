@@ -1,4 +1,4 @@
-****Google Drive File Management Script****
+**Google Drive File Management Script**
 
 **Overview:**
 
@@ -7,13 +7,9 @@ This Python script provides automation for managing files in Google Drive using 
 **Features:**
 
 1. **Authentication**: Authenticates with Google Drive using OAuth 2.0 credentials stored in a file named "mycreds.txt".
-  
 2. **File Management**: Renames PDF files in a designated folder to "aaa.pdf" in Google Drive.
-  
 3. **Information Extraction**: Extracts file name, date, tag number, and directory information from PDF file contents.
-  
 4. **File Movement**: Moves renamed PDF files to destination folders based on the extracted directory information.
-   
 5. **Local Cleanup**: Deletes local copies of PDF files after renaming and uploading them to Google Drive.
 
 **Usage:**
